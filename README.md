@@ -1,7 +1,7 @@
 # adviser
 Q3 ფაილში გამოყენებულია:
 * sqlite3
-* <https://api.adviceslip.com> API.<br>
+* <https://api.adviceslip.com> API<br>
 
 
 API საშუალებას გვაძლევს ყოველ get მოთხოვნაზე აბრუნებს

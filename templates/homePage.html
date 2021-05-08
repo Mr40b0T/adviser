@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+<body>
+<form action="/" method="post">
+     <p>
+        {{text}}
+    </p>
+</form>
+<form action="/" method="get" onclick="assign()">
+    <button>Generate</button>
+</form>
+
+</body>
+</html>

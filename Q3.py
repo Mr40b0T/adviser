@@ -7,12 +7,15 @@ cur = conn.cursor()
 
 url = "https://api.adviceslip.com/advice"
 r = requests.get(url)
+
 print(f"status code {r.status_code}")
 res = r.text
 print(f"headers {r.headers}")
 res1 = json.loads(res)
-res1 = json.dumps(res1, indent=4)
-print(res1)
+res2 = json.dumps(res1, indent=4)
+with open('hungry.json', 'w') as f:
+    json.dump(res1, f, indent=4)
+print(res2)
 adv = r.json()["slip"]["advice"]
 print(r.json()["slip"]["advice"])
 # კოდის გაშვებისას შეიქმნება ცხრილი სახელწოდებით advices.

@@ -4,6 +4,6 @@ Q3 ფაილში გამოყენებულია:
 * <https://api.adviceslip.com> API<br>
 
 
-API საშუალებას გვაძლევს ყოველ get მოთხოვნაზე აბრუნებს
+API ყოველ get მოთხოვნაზე აბრუნებს მსგავს JSON -ს
 ```bash
 {"slip": { "id": 104, "advice": "Do, or do not. There is no try."}}
